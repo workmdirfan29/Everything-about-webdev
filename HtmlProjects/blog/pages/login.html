@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Login | xRoger Blog</title>
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
   <header>
@@ -25,20 +25,21 @@
     </div>
   </header>
 
-  <main>
-    <section class="login">
-      <h1>Login to Your Account</h1>
-      <form action="#" method="POST">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Login</button>
-      </form>
-    </section>
-  </main>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form >
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit" class="login-btn">Login</button>
+        <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+</div>
 
   <footer>
     <p>&copy; 2025 xRoger Blog. All rights reserved.</p>
