@@ -16,15 +16,15 @@ No matter where you stand, this course will meet you where you're at and push yo
 Get ready to dive deep into the world of web development! 🌐 Here's what you'll learn:
 
  ### 1. Core Web Technologies:
--     HTML – The foundation of every website. Learn how to build your structure and content. 🏗️
--     CSS – Make your website look awesome! Master styling and design techniques. 🎨
--     JavaScript – Bring your website to life with interactive elements and dynamic features! ⚡
+- **HTML** – The foundation of every website. Learn how to build your structure and content. 🏗️
+- **CSS** – Make your website look awesome! Master styling and design techniques. 🎨
+- **JavaScript** – Bring your website to life with interactive elements and dynamic features! ⚡
  ###  2. Full-Stack Development:
 - Master both `Front-End and Back-End Development`, so you can handle both sides of web development like a pro. 🔄
  ### 3.Database Integration:
 - Learn how to connect your website to a database and manage data seamlessly! 💾
  ### 4. Real-World Projects:
-- Build `real-world projects`  that will help you apply your knowledge and showcase your skills. 👩‍💻👨‍💻
+- Build **real-world projects**  that will help you apply your knowledge and showcase your skills. 👩‍💻👨‍💻
 ### 5.  And So Much More!
 - From advanced concepts to tips & tricks, you’ll discover everything you need to become a well-rounded developer. 🔑
 ## The Schedule:
