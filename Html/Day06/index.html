@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block vs Inline Elements</title>
+</head>
+<body>
+    <!-- Block-level element example -->
+    <div style="background-color: lightblue; padding: 10px;">
+      <!-- <div> is a block-level element, so it takes up the full width of its container. -->
+      <h1>This is a Block-Level Heading</h1> 
+      <!-- <h1> is a block-level element, so it will appear on a new line. -->
+      <p>This paragraph is inside a <div> container. It takes up the full width of the container.</p>
+      <!-- <p> is also a block-level element. It starts on a new line and takes up the full width. -->
+    </div>
+
+    <!-- Inline element example -->
+    <p>This is a <span style="color: red;">red</span> word inside a paragraph. The <span> tag is inline.</p>
+    <!-- <span> is an inline element. It only takes up as much width as necessary and does not force a new line. -->
+    <p>This is a <a href="https://www.example.com" target="_blank">link</a> inside a paragraph. The <a> tag is also inline.</p>
+    <!-- <a> is an inline element as well. It stays within the paragraph and does not break to a new line. -->
+    
+    <!-- Combining block and inline elements -->
+    <div style="background-color: lightgray; padding: 10px;">
+      <h2>Block and Inline Elements Together</h2>
+      <p>Here is a <strong>strong</strong> word inside a block-level <p> tag. 
+      <span style="color: green;">This span is inline</span>, so it won't create a new line.</p>
+      <!-- <strong> is an inline element. It stays within the paragraph, but it gives bold style. -->
+      <!-- <span> is inline, so it also stays in the flow without breaking the line. -->
+    </div>
+</body>
+</html>
