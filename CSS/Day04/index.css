@@ -1,0 +1,51 @@
+/* CSS Selector */
+
+/* Example: Targeting a specific HTML element by tag name */
+h1 {
+    color: blue;     /* This changes the text color of all <h1> elements to blue */
+}
+
+/* Example: Targeting a specific element by class name */
+.highlight {
+    color: red;    /* This changes the text color of elements with the class "highlight" to red */
+}
+
+/* Example: Targeting a specific element by id */
+#main-heading {
+    color: green;   /* This changes the text color of the element with id "main-heading" to green */
+}
+
+/* CSS Background */
+/* You can set the background of an element, such as a color, image, or gradient */
+
+body {
+    background-color: lightgray; /* This sets the background color of the entire page to light gray */
+}
+
+/* Example: Using a background image */
+.background-image {
+    background-image: url('https://images.pexels.com/photos/2882568/pexels-photo-2882568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');    /* This sets a background image for elements with class "background-image" */
+    width:  700px;
+    height: 500px;
+    background-size: cover;             /* Ensures the background image covers the entire element */
+}
+
+/* Example: Using a gradient as a background */
+.gradient-background {
+    background: linear-gradient(to right, red, yellow); /* This creates a gradient background from red to yellow */
+}
+
+/* CSS Text */
+/* You can also style text such as font size, family, alignment, etc. */
+
+p {
+    font-family: Arial, sans-serif;     /* This sets the font of all <p> elements to Arial */
+    font-size: 30px;                    /* This sets the font size of all <p> elements to 16px */
+    text-align: center;                 /* This aligns the text of all <p> elements to the center */
+}
+
+/* Example: Styling text with bold and italic */
+.fancy-text {
+    font-weight: bold;        /* Makes the text bold */
+    font-style: italic;       /* Makes the text italic */
+}
