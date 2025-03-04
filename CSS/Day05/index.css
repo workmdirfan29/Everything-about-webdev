@@ -1,0 +1,29 @@
+
+/* Example 1: Font */
+.font-example {
+    font-family: 'Arial', sans-serif;           /* This sets the font to Arial */
+    font-size: 20px;                            /* This sets the font size to 20px */
+    font-weight: bold;                          /* This makes the text bold */
+    color: #333;                              /* This sets the text color to dark gray */
+}
+
+/* Example 2: Margin */
+.margin-example {
+    margin: 30px;                        /* This adds a 30px margin around the div */
+    background-color: lightblue;       /* This sets the background color of the div */
+    padding: 10px;                       /* Adds some padding inside the div */
+}
+
+/* Example 3: Padding */
+.padding-example {
+    padding: 20px;                      /* This adds 20px padding inside the div */
+    background-color: lightgreen;     /* This sets the background color of the div */
+    text-align: center;                 /* This centers the text inside the div */
+}
+
+/* Example 4: Borders */
+.border-example {
+    border: 5px solid black;        /* This adds a solid black border of 5px width */
+    padding: 15px;                    /* This adds padding inside the div */
+    background-color: lightyellow;  /* This sets the background color of the div */
+}
