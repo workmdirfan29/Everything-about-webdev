@@ -1,0 +1,57 @@
+/* Box Model Example */
+.box-model .box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 15px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Display Property Example */
+.display-property .block-element {
+    display: block;
+    width: 100%;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.display-property .inline-element {
+    display: inline;
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+/* Positioning Example */
+.positioning .relative-box {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.positioning .absolute-box {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* Flexbox Example */
+.flexbox .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.flexbox .flex-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
