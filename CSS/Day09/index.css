@@ -1,0 +1,50 @@
+/* CSS Variables - Defining reusable values */
+:root {
+    --primary-color: #3498db; /* Primary color for the website */
+    --font-size: 16px; /* Default font size */
+}
+
+/* Global body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--font-size); /* Use the variable for font size */
+    background-color: #f4f4f4;
+}
+
+/* Example 2: Pseudo-classes - Targeting specific states of elements */
+.btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+/* Example 3: Responsive Design - Media query for mobile responsiveness */
+.responsive-box {
+    background-color: #e74c3c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query to make the responsive-box adjust its width on smaller screens */
+@media screen and (max-width: 600px) {
+    .responsive-box {
+        background-color: #2ecc71; /* Change background color on small screens */
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Example 4: Pseudo-elements - Adding extra content using ::before */
+.pseudo-example::before {
+    content: "Note: "; /* Adds text before the paragraph content */
+    font-weight: bold;
+    color: #e74c3c;
+}
