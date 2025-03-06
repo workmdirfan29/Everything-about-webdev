@@ -1,0 +1,67 @@
+/* Example 1: Links - Styling the link */
+.link-example {
+    color: #007BFF; /* Blue color for the link */
+    text-decoration: none; /* Remove the underline */
+    font-size: 18px; /* Set the font size */
+}
+
+.link-example:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #0056b3; /* Change color to a darker shade of blue on hover */
+}
+
+/* Example 2: Shadows - Adding a box shadow effect */
+.shadow-example {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Horizontal, vertical, blur, and color with transparency */
+    padding: 20px; /* Padding inside the div */
+    background-color: lightcoral; /* Light coral background color */
+    margin-bottom: 20px; /* Adds margin below the element */
+}
+
+/* Example 3: Transitions - Smooth transition on hover */
+.transition-example {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.transition-example:hover {
+    background-color: #218838; /* Darker green background on hover */
+}
+
+/* Example 4: Animations - Moving an element from left to right */
+@keyframes move {
+    from {
+        transform: translateX(0); /* Starting position */
+    }
+    to {
+        transform: translateX(100px); /* Ending position (100px to the right) */
+    }
+}
+
+.animation-example {
+    animation: move 2s ease-in-out infinite alternate;      /* Apply the move animation */
+    background-color: lightgreen;           /* Light green background color */
+    padding: 20px;                          /* Padding inside the div */
+    margin-bottom: 20px;                /* Margin below the div */
+}
+
+/* Example 5: Media Queries - Change styles based on screen size */
+@media screen and (max-width: 600px) {
+    .media-query-example {
+        background-color: lightpink;      /* Change background to light pink on smaller screens */
+        font-size: 14px;                    /* Smaller font size for mobile devices */
+        padding: 10px;                      /* Less padding for smaller screens */
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .media-query-example {
+        background-color: lightyellow;        /* Change background to light yellow on larger screens */
+        font-size: 18px;                        /* Larger font size for larger screens */
+        padding: 20px;                          /* More padding for larger screens */
+    }
+}
