@@ -1,0 +1,75 @@
+/* Grid Layout Example */
+.grid-container {
+    display: grid;                        /* Set up a grid container */
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 10px;                             /* Space between items */
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #4CAF50; /* Green background for grid items */
+    color: white;              /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Width and Height Example */
+.box {
+    width: 300px;              /* Fixed width of 300px */
+    height: 200px;             /* Fixed height of 200px */
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+/* Overflow Example */
+.overflow-box {
+    width: 300px;              /* Fixed width of 300px */
+    height: 150px;             /* Fixed height of 150px */
+    overflow: auto;            /* Adds scrollbars if content overflows */
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+/* Visibility Example */
+.visibility-box {
+    width: 100%;
+    height: 100px;
+    background-color: #f4a261;
+    visibility: visible;      /* The box is visible */
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+/* Opacity Example */
+.opacity-box {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);   /* Semi-transparent black background */
+    opacity: 0.7;                             /* 70% opacity for the box */
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+/* Text Alignment Example */
+.center-align {
+    text-align: center;             /* Center the text */
+}
+
+.right-align {
+    text-align: right;               /* Align text to the right */
+}
+
+/* Text Decoration Example */
+.underline-text {
+    text-decoration: underline;      /* Underline the text */
+}
+
+.no-decoration {
+    text-decoration: none;           /* Remove any text decoration */
+}
