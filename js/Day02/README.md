@@ -5,7 +5,37 @@
 
 2. Create a JavaScript file `(app.js)` with the required code.
 3. Link the `app.js` file to the HTML using the `<script>` tag.
+```html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Connect JavaScript to HTML</title>
+</head>
+<body>
+    <h1>Welcome to Day02 !</h1>
 
+    <!-- 1. Inline JavaScript -->
+    <script>
+        console.log("Hello from Inline JavaScript!");
+    </script>
+
+    <h2>Check the Console for Inline JavaScript Output</h2>
+
+    <!-- 2. External JavaScript (Linked externally) -->
+    <script src="app.js"></script>
+
+    <h2>Check the Console for External JavaScript Output</h2>
+
+    <!-- 3. Asynchronous Loading of JavaScript -->
+
+    <script src="app.js"></script>              <!-- This links the JavaScript file -->
+
+    <h2>Async Script Loaded - Check Console</h2>
+
+</body>
+</html>
+```
 # How It Works:
 - When the page loads, the JavaScript from the `<script>` tags will be executed in the following order:
 
