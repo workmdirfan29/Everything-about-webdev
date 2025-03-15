@@ -1,0 +1,11 @@
+{
+    "name": "John Wick",
+    "age": 30,
+    "email": "john@example.com",
+    "isSubscribed": true,
+    "hobbies": ["Fighting", "Running", "Shooting"],
+    "address": {
+      "city": "London",
+      "zipCode": "Continental"
+    }
+  }
