@@ -36,5 +36,12 @@ Daily Updates: Get new content almost every day to keep the learning momentum go
 Real-World Challenges: Build your skills through practical projects and assignments. 🎯
 Support: We're with you every step of the way – ask questions and get answers quickly! 💬
 
+## Course Structure & Duration
+Provide a rough timeline (e.g., "4-week structured learning path" or "Self-paced with daily lessons").
+Mention if the course follows a module system (Week 1: HTML & CSS, Week 2: JavaScript, etc.).
+## Contribution & Feedback
+If open-source, invite others to contribute.
+Ask for feedback to improve the course.
+
 **Get ready to become a web development master. Let’s start coding together! 👨‍💻🌟**
  
